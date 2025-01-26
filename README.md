@@ -3,7 +3,7 @@
 - The platform offers multiple templates with customization options to create resume according to individual needs and preferences.
 - Implemented OAuth authentication to enhance user security and streamline admin access.
 - Integrated Stripe payment gateway to allow users to subscribe to premium / paid templates.
-  First, run the development server:
+  
 
 ## Project Setup 
 ```bash
