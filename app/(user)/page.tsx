@@ -1,6 +1,5 @@
 import { getAllTemplates } from "@/lib/actions/actions";
 import { Template } from "@prisma/client";
-// import { Template } from "@prisma/client";
 import Link from "next/link";
 
 const HomePage = async () => {

@@ -1,12 +1,11 @@
 "use client";
-// import { createPaymentIntent, getUniqueUser } from "@/lib/actions/actions";
+import { createPaymentIntent, getUniqueUser } from "@/lib/actions/actions";
 import { User } from "@prisma/client";
 import { useEffect, useState } from "react";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe, StripeElementsOptions } from "@stripe/stripe-js";
 import toast from "react-hot-toast";
 import CheckoutForm from "./CheckoutForm";
-import { createPaymentIntent } from "@/lib/actions/actions";
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISH_KEY!);
 const SubscribeUser = () => {
   const [user, setUser] = useState<User>();
